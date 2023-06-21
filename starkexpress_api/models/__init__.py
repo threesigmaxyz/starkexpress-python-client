@@ -1,0 +1,70 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from starkexpress_api.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from starkexpress_api.model.api_error_dto import ApiErrorDto
+from starkexpress_api.model.api_error_response_dto import ApiErrorResponseDto
+from starkexpress_api.model.asset_type import AssetType
+from starkexpress_api.model.batch_mint_request_model import BatchMintRequestModel
+from starkexpress_api.model.big_integer import BigInteger
+from starkexpress_api.model.configure_fee_model import ConfigureFeeModel
+from starkexpress_api.model.create_orderbook_model import CreateOrderbookModel
+from starkexpress_api.model.data_availability_modes import DataAvailabilityModes
+from starkexpress_api.model.deploy_asset_model import DeployAssetModel
+from starkexpress_api.model.deposit_details_dto import DepositDetailsDto
+from starkexpress_api.model.deposit_details_model import DepositDetailsModel
+from starkexpress_api.model.domain_dto import DomainDto
+from starkexpress_api.model.enable_asset_model import EnableAssetModel
+from starkexpress_api.model.error_codes import ErrorCodes
+from starkexpress_api.model.fee_action import FeeAction
+from starkexpress_api.model.fee_config_dto import FeeConfigDto
+from starkexpress_api.model.fee_dto import FeeDto
+from starkexpress_api.model.filter_options import FilterOptions
+from starkexpress_api.model.member_description_dto import MemberDescriptionDto
+from starkexpress_api.model.member_value_dto import MemberValueDto
+from starkexpress_api.model.mint_data_model import MintDataModel
+from starkexpress_api.model.mint_request_data_model import MintRequestDataModel
+from starkexpress_api.model.order_details_dto import OrderDetailsDto
+from starkexpress_api.model.order_details_model import OrderDetailsModel
+from starkexpress_api.model.order_dto import OrderDto
+from starkexpress_api.model.order_fill_dto import OrderFillDto
+from starkexpress_api.model.order_side import OrderSide
+from starkexpress_api.model.orderbook_asset_dto import OrderbookAssetDto
+from starkexpress_api.model.orderbook_dto import OrderbookDto
+from starkexpress_api.model.orderbook_level1_data_dto import OrderbookLevel1DataDto
+from starkexpress_api.model.orderbook_level2_data_dto import OrderbookLevel2DataDto
+from starkexpress_api.model.orderbook_level2_entry_dto import OrderbookLevel2EntryDto
+from starkexpress_api.model.pagination_dto import PaginationDto
+from starkexpress_api.model.register_details_dto import RegisterDetailsDto
+from starkexpress_api.model.register_user_model import RegisterUserModel
+from starkexpress_api.model.settlement_info_model import SettlementInfoModel
+from starkexpress_api.model.settlement_order_model import SettlementOrderModel
+from starkexpress_api.model.signature_model import SignatureModel
+from starkexpress_api.model.stark_ex_operation import StarkExOperation
+from starkexpress_api.model.submit_order_model import SubmitOrderModel
+from starkexpress_api.model.submit_settlement_model import SubmitSettlementModel
+from starkexpress_api.model.tenant_asset_dto import TenantAssetDto
+from starkexpress_api.model.tenant_asset_dto_paginated_response_dto import TenantAssetDtoPaginatedResponseDto
+from starkexpress_api.model.transaction_dto import TransactionDto
+from starkexpress_api.model.transaction_dto_paginated_response_dto import TransactionDtoPaginatedResponseDto
+from starkexpress_api.model.transaction_model import TransactionModel
+from starkexpress_api.model.transaction_status import TransactionStatus
+from starkexpress_api.model.transfer_details_dto import TransferDetailsDto
+from starkexpress_api.model.transfer_details_model import TransferDetailsModel
+from starkexpress_api.model.transfer_model import TransferModel
+from starkexpress_api.model.user_dto import UserDto
+from starkexpress_api.model.user_dto_paginated_response_dto import UserDtoPaginatedResponseDto
+from starkexpress_api.model.user_with_vaults_dto import UserWithVaultsDto
+from starkexpress_api.model.vault_dto import VaultDto
+from starkexpress_api.model.vault_dto_paginated_response_dto import VaultDtoPaginatedResponseDto
+from starkexpress_api.model.withdraw_details_dto import WithdrawDetailsDto
+from starkexpress_api.model.withdraw_model import WithdrawModel
